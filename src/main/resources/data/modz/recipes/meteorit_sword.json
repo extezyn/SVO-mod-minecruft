@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " + "
+  ],
+  "key": {
+    "#": {
+      "item": "modz:meteorit_ingot"
+    },
+    "+": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "modz:sword"
+  }
+}

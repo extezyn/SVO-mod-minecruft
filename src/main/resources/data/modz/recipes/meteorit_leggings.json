@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "modz:meteorit_ingot"
+    }
+  },
+  "result": {
+    "item": "modz:meteorit_leggings"
+  }
+}

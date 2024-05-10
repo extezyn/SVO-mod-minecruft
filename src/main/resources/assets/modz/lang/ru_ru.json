@@ -1,0 +1,16 @@
+{
+  "item.modz.meteorit_ingot": "Метеорит",
+  "item.modz.notdone_ore": "Метеоритовая руда",
+  "itemGroup.Meteorite tab": "Метеориты",
+  "block.modz.meteorit_block": "Метеоритный блок",
+  "block.modz.meteorit_ore": "Метеоритовая руда",
+  "item.modz.hoe": "Метеоритовая мотыга",
+  "item.modz.pickaxe": "Метеоритовая кирка",
+  "item.modz.shovel": "Метеоритовая лопата",
+  "item.modz.sword": "Метеоритовая меч",
+  "item.modz.axe": "Метеоритовая топор",
+  "item.modz.meteorit_helmet": "Метеоритовый шлем",
+  "item.modz.meteorit_chestplate": "Метеоритовый нагрудник",
+  "item.modz.meteorit_leggings": "Метеоритоввые поножи",
+  "item.modz.meteorit_boots": "Метеоритовые ботинки"
+}

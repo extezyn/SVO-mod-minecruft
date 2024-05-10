@@ -1,0 +1,15 @@
+{
+  "item.modz.meteorit": "Meteorit",
+  "item.modz.donemeteorit": "Meteorit ore",
+  "itemGroup.Meteorite tab": "Meteoriti",
+  "block.modz.meteorit_block": "Meteor block",
+  "block.modz.meteorit_ore": "Meteor ore",
+  "item.modz.hoe": "Meteor hoe",
+  "item.modz.pickaxe": "Meteor pickaxe",
+  "item.modz.shovel": "Meteor shovel",
+  "item.modz.sword": "Meteor sword",
+  "item.modz.meteorit_helmet": "Meteor helmet",
+  "item.modz.meteorit_chestplate": "Meteor chestplate",
+  "item.modz.meteorit_leggings": "Meteor leggings",
+  "item.modz.meteorit_boots": "Meteor boots"
+}

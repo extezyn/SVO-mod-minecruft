@@ -23,22 +23,19 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.METEORIT_TAB)));
 
     public static final RegistryObject<Item> AXE = ITEMS.register("axe",
-            () -> new AxeItem(Tiers.EXAMPLE , 5, 3.0f ,new Item.Properties().tab(ModCreativeModTab.METEORIT_TAB)));
+            () -> new AxeItem(Tiers.EXAMPLE, 6, -3.1F, new Item.Properties().tab(ModCreativeModTab.METEORIT_TAB)));
 
     public static final RegistryObject<Item> HOE = ITEMS.register("hoe",
-            () -> new HoeItem(Tiers.EXAMPLE, 5, 3.0f ,new Item.Properties().tab(ModCreativeModTab.METEORIT_TAB)));
-
-    public static final RegistryObject<Item> MULTITOOL = ITEMS.register("multitool",
-            () -> new AxeItem(Tiers.EXAMPLE, 1, 3.8f ,new Item.Properties().tab(ModCreativeModTab.METEORIT_TAB)));
+            () -> new HoeItem(Tiers.EXAMPLE, 0, -3.0F, new Item.Properties().tab(ModCreativeModTab.METEORIT_TAB)));
 
     public static final RegistryObject<Item> PICKAXE = ITEMS.register("pickaxe",
-            () -> new PickaxeItem(Tiers.EXAMPLE, 1, 2.8f ,new Item.Properties().tab(ModCreativeModTab.METEORIT_TAB)));
+            () -> new PickaxeItem(Tiers.EXAMPLE, 1, -2.8F, new Item.Properties().tab(ModCreativeModTab.METEORIT_TAB)));
 
     public static final RegistryObject<Item> SHOVEL = ITEMS.register("shovel",
-            () -> new ShovelItem(Tiers.EXAMPLE, 1, 3.0f ,new Item.Properties().tab(ModCreativeModTab.METEORIT_TAB)));
+            () -> new ShovelItem(Tiers.EXAMPLE, 1.5F, -3.0F, new Item.Properties().tab(ModCreativeModTab.METEORIT_TAB)));
 
     public static final RegistryObject<Item> SWORD = ITEMS.register("sword",
-            () -> new SwordItem(Tiers.EXAMPLE, 3, 2.4f ,new Item.Properties().tab(ModCreativeModTab.METEORIT_TAB)));
+            () -> new SwordItem(Tiers.EXAMPLE, 4, -2.4F, new Item.Properties().tab(ModCreativeModTab.METEORIT_TAB)));
 
     public static final RegistryObject<ArmorItem> METEORIT_HELMET = ITEMS.register("meteorit_helmet",
             () -> new ArmorItem(ArmorTier.EXAMPLE, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModTab.METEORIT_TAB)));
@@ -64,10 +61,10 @@ public class ModItems {
     public static class ArmorTier {
         public static final ArmorMaterial EXAMPLE = new ModArmorMaterial(
           "meteorit",
-                500,
-                new int[] {20,40,50,10},
+                439,
+                new int[] {3,2,5,2},
                 300,
-                SoundEvents.ARMOR_EQUIP_DIAMOND,
+                SoundEvents.ARMOR_EQUIP_GOLD,
                 0.0f,
                 0.0f,
                 () -> Ingredient.EMPTY

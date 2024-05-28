@@ -1,4 +1,4 @@
-package net.shaibmen.modz.block;
+package net.extezyn.modz.block;
 
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -12,10 +12,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.shaibmen.modz.ModZ;
-import net.shaibmen.modz.item.ModCreativeModTab;
-import net.shaibmen.modz.item.ModItems;
-
+import net.extezyn.modz.ModZ;
+import net.extezyn.modz.item.ModCreativeModTab;
+import net.extezyn.modz.item.ModItems;
 
 import java.util.function.Supplier;
 

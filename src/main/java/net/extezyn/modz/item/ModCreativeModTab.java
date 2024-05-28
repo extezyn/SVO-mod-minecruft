@@ -1,4 +1,4 @@
-package net.shaibmen.modz.item;
+package net.extezyn.modz.item;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;

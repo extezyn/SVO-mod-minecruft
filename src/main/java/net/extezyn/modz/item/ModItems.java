@@ -1,6 +1,7 @@
-package net.shaibmen.modz.item;
+package net.extezyn.modz.item;
 
-import net.minecraft.sounds.SoundEvent;
+import net.extezyn.modz.ModZ;
+import net.extezyn.modz.base.ModArmorMaterial;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -10,8 +11,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.shaibmen.modz.ModZ;
-import net.shaibmen.modz.base.ModArmorMaterial;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =

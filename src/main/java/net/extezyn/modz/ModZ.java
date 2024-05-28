@@ -1,6 +1,8 @@
-package net.shaibmen.modz;
+package net.extezyn.modz;
 
 import com.mojang.logging.LogUtils;
+import net.extezyn.modz.block.ModBlocks;
+import net.extezyn.modz.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -9,8 +11,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.shaibmen.modz.block.ModBlocks;
-import net.shaibmen.modz.item.ModItems;
 import org.slf4j.Logger;
 
 

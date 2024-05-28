@@ -5,7 +5,7 @@ plugins {
 }
 
 version = '0.0.1-1.19.2'
-group = 'net.shaibmen.modz' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = 'net.extezyn.modz' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'modz'
 
 // Mojang ships Java 17 to end users in 1.18+, so your modz should target Java 17.

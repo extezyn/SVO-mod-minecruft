@@ -1,10 +1,10 @@
-package net.shaibmen.modz.base;
+package net.extezyn.modz.base;
 
+import net.extezyn.modz.ModZ;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.shaibmen.modz.ModZ;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Supplier;
